@@ -30,3 +30,7 @@ tr:nth-child(even){
 a:hover{
     color:red;
 }
+span{
+    color:red;
+    font-weight:bold;
+}
