@@ -18,7 +18,7 @@ tr:nth-child(even){
     text-align:right;
 }
 .bolded{
-    font-style:bold !important;
+    font-weight:bold !important;
 }
 #headshot{
     width:35% !important;
