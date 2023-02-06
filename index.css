@@ -1,12 +1,15 @@
 tr:nth-child(even){
-    background-color:#f2f2f2;
+    background-color:lightgray;
+}
+tr:nth-child(odd){
+    background-color:white;
 }
 .overall{
     font-family:sans-serif;
 }
 #heading{
-    background-color:darkseagreen;
-    padding: 1px 15px;
+    background-color:darkseagreen; 
+    border-right:12px solid darkseagreen;
 }
 #csSection{
     background-color: rgb(101, 126, 101) !important;
@@ -33,4 +36,36 @@ a:hover{
 span{
     color:red;
     font-weight:bold;
+}
+
+#photosection{
+    background-color:cornflowerblue;
+    border: 6px solid skyblue;
+    border-radius:200px;
+    margin-left:10%;
+    margin-right:10%;
+}
+#parent{
+    width:100%;
+}
+#proass{
+    background-color: pink;
+    border:6px solid palevioletred;
+}
+#hobint{
+    background-color: lightgoldenrodyellow;
+    border:6px solid orange;
+}
+#professional{
+    background-color:blanchedalmond;
+    border: 6px solid coral;
+}
+#quote{
+    background-color:burlywood;
+    border-radius:6px;
+    padding:1px;
+}
+#quoteradius{
+    border-radius:12px;
+    border:6px solid chocolate;
 }
